@@ -1,8 +1,15 @@
 body {
     display:grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
 }
+
+/*header style */
+.header{
+    grid-column:2;
+    grid-row:1;
+}
+
 
 
 /*sidebar style*/
@@ -15,6 +22,8 @@ body {
 /*main style*/
 .main-content{
     background-color:lightslategray;
+    grid-column: 2;
+    grid-row:2/7;
 }
 
 
