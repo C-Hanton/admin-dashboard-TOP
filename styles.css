@@ -14,7 +14,7 @@ body {
 
 /*sidebar style*/
 .sidebar {
-    background-color:lightblue;
+    background-color:#2074CE;
     grid-column:1 / 2;
     grid-row:1/7;
 }
@@ -23,9 +23,42 @@ body {
     display: flex;
 }
 
+.logo > h1 {
+    color:white
+}
+
+.logo > img {
+    filter:invert(100%)
+}
+
 .logo h1 {
     margin:0;
     align-self:center;
+}
+
+.nav-list {
+    list-style-type:none;
+    margin-top: 50px;
+}
+
+.nav-list > .list-item {
+    margin: 15px;
+}
+
+.list-item a {
+color:white;
+text-decoration: none;
+
+}
+
+.support-list {
+    list-style-type:none;
+    margin-top: 50px;
+}
+
+.support-list > .list-item {
+    margin:15px;
+    
 }
 
 /*main style*/
