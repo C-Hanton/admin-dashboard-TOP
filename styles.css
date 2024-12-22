@@ -227,10 +227,28 @@ width: 100%;
 
 /* Announcement container */
 .announcement-box{
-    background-color: red;
+    background-color:white;
     height: 50%;
     width: 100%;
+    border-radius: 15px;
+    display:flex;
+    flex-direction: column;
+    padding: 15px;
+    border-left: solid 10px rgb(230, 178, 10);
     }
+
+    .announcement {
+        display:flex;
+        flex-direction: column;
+        
+    }
+
+    .announcement h1{
+        font-size: 1em;
+        padding: 0;
+    }
+
+
 
 
 
