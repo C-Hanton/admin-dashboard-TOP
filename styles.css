@@ -186,16 +186,37 @@ height: 100%;
 width:75%;
 }
 
+.side-container {
+    height:100%;
+    width:25%;
+}
+
 .announcement-box{
 background-color: red;
 height: 50%;
-width: 1fr;
+width: 100%;
 }
 
 .trending-box{
 background-color:gray;
 height: 50%;
-width: 1fr;
+width: 100%;
+}
+
+/* Project Containers */
+
+.project-container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    gap:1em;
+}
+
+.project {
+    background-color: white;
+    width: 25em;
+    height: 10em;
+    
 }
 
 
