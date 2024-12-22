@@ -186,7 +186,7 @@ li {
 .project-grid {
 
 height: 100%;
-width:70%;
+width:60%;
 }
 
 .project-grid h1{
@@ -198,13 +198,6 @@ width:70%;
     width:25%;
 }
 
-
-
-.trending-box{
-background-color:gray;
-height: 50%;
-width: 100%;
-}
 
 /* Project Containers */
 
@@ -232,7 +225,7 @@ width: 100%;
 .announcement-box{
     background-color:white;
     height: 30%;
-    width: 100%;
+    width: 80%;
     border-radius: 15px;
     display:flex;
     flex-direction: column;
@@ -257,7 +250,7 @@ width: 100%;
     .trending-box{
     background-color:white;
     height: 25%;
-    width: 100%;
+    width: 80%;
     border-radius: 15px;
     display:flex;
     flex-direction: column;
