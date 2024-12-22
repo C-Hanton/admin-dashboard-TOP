@@ -238,6 +238,8 @@ width: 100%;
     flex-direction: column;
     padding: 15px;
     border-left: solid 10px rgb(230, 178, 10);
+    overflow-x:hidden;
+    overflow-y:auto;
     }
 
     .announcement {
