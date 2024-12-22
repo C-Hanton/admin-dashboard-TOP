@@ -100,6 +100,7 @@ button {
 
 
 /*sidebar style*/
+
 .sidebar {
     background-color:#2074CE;
     grid-column:1 / 2;
@@ -170,6 +171,8 @@ li {
 }
 
 /*main style*/
+
+
 .main-content{
     background-color:#bac6d9;
     grid-column: 2;
@@ -177,12 +180,28 @@ li {
     display: flex;
 }
 
+.project-grid {
+background-color:yellow;
+height: 100%;
+width:75%;
+}
 
+.announcement-box{
+background-color: red;
+height: 50%;
+width: 1fr;
+}
 
-
+.trending-box{
+background-color:gray;
+height: 50%;
+width: 1fr;
+}
 
 
 /* Image sizings for logos */
+
+
 
 .alert-icon {
     height:25px;;
