@@ -181,7 +181,7 @@ li {
 }
 
 .project-grid {
-background-color:yellow;
+
 height: 100%;
 width:75%;
 }
@@ -216,7 +216,12 @@ width: 100%;
     background-color: white;
     width: 25em;
     height: 10em;
-    
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.project h1 {
+    font-size: 1em;
 }
 
 
