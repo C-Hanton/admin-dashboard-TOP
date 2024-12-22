@@ -174,7 +174,10 @@ li {
     background-color:#bac6d9;
     grid-column: 2;
     grid-row:2/7;
+    display: flex;
 }
+
+
 
 
 
