@@ -231,7 +231,7 @@ width: 100%;
 /* Announcement container */
 .announcement-box{
     background-color:white;
-    height: 50%;
+    height: 30%;
     width: 100%;
     border-radius: 15px;
     display:flex;
@@ -256,7 +256,7 @@ width: 100%;
     /* Trending Box */
     .trending-box{
     background-color:white;
-    height: 50%;
+    height: 25%;
     width: 100%;
     border-radius: 15px;
     display:flex;
