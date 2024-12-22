@@ -260,10 +260,31 @@ width: 100%;
     border-left: solid 10px rgb(230, 178, 10);
         }
 
+        .user {
+            display:flex;
+            gap: 10px;
+        }
 
     .user img {
         height: 50px;;
         width:50px;
+        align-self:center;
+    }
+
+    .user-tags {
+        display:flex;
+        flex-direction:column;
+    }
+
+    .user-tags h1 {
+        font-size: 1em;
+        margin:0;
+    }
+
+    .user-tags p {
+        margin:0;
+        justify-content: center;
+        align-items:center;
     }
 
 
