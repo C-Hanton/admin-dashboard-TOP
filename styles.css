@@ -267,7 +267,7 @@ width: 100%;
 
     .user {
     display:flex;
-    gap: 15px;
+    margin: 15px;
         }
 
     .user img {
