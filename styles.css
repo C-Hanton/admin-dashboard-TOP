@@ -260,9 +260,9 @@ width: 100%;
     border-left: solid 10px rgb(230, 178, 10);
         }
 
-        .user {
-            display:flex;
-            gap: 10px;
+    .user {
+    display:flex;
+    gap: 15px;
         }
 
     .user img {
