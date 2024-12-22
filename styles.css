@@ -240,7 +240,6 @@ width: 100%;
     .announcement {
         display:flex;
         flex-direction: column;
-        
     }
 
     .announcement h1{
@@ -250,6 +249,18 @@ width: 100%;
 
 
     /* Trending Box */
+    .trending-box{
+    background-color:white;
+    height: 50%;
+    width: 100%;
+    border-radius: 15px;
+    display:flex;
+    flex-direction: column;
+    padding: 15px;
+    border-left: solid 10px rgb(230, 178, 10);
+        }
+
+
     .user img {
         height: 50px;;
         width:50px;
