@@ -30,7 +30,7 @@ body {
 
 form {
     width: 70%;
-    padding: 6px;
+    padding: 1em;
     display: flex;
 }
 
@@ -41,7 +41,8 @@ form > input {
     border: none;
     border-radius: 10px;
     color:black;
-    padding: 10px;
+    padding: .5em;
+    align-self:center;
 }
 form > img {
     margin: 10px;
@@ -57,14 +58,16 @@ form > img {
 
 .profile-head > img{
 margin: 10px;
-height: 20px;
-width: 20px;
+height: 2em;
+width: 2em;
 align-self:center;
+padding: 6px;
 }
 
-.profile-icon {
-    height: 30px;
-    width: 30px;
+.profile-name {
+    font-weight:600;
+    font-size:1em;
+    align-self: center;
 }
 
 .profile-grid {
@@ -92,7 +95,7 @@ align-self:center;
 
 .button-box{
     width: 40%;
-    align-items: center;
+    align-items: right;
     display:flex;
     justify-content:right;
     height: 20%;
