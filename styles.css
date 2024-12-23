@@ -54,9 +54,20 @@ form > img {
 .profile-head {
     display: flex;
     padding: 6px;
+    align-items:center;
 }
 
-.profile-head > img{
+
+
+.alert-icon{
+margin: 10px;
+height: 2em;
+width: 2em;
+align-self:center;
+padding: 6px;
+}
+
+.profile-icon{
 margin: 10px;
 height: 2em;
 width: 2em;
