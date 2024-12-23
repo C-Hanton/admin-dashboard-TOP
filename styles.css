@@ -110,6 +110,7 @@ button {
     width: 80px;
     margin: 10px;
     font-weight: 600;
+    cursor:pointer;
 }
 
 
@@ -326,4 +327,10 @@ flex-direction: column;
 .champion-logo {
     height: 50px;
     width: auto;
+}
+
+/* Button states */
+
+button:hover {
+    background-color:darkblue;
 }
